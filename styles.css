@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(59, 44, 29, 1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #fff2e7;
+}
+
+.header-img {
+  width: 50px;
+  margin-left: 270px;
+}
+
+.header-menu {
+  margin-right: 230px;
+}
+
+.header-menu-item {
+  text-decoration: none;
+  color: #fff2e7;
+  margin-left: 30px;
+  font-family: 'sarala';
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.content {
+  color: #fff2e7;
+  font-family: 'sarala';
+  font-weight: 400;
+}
+
+.principal-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.written-content {
+  margin-top: 50px;
+  margin-left: 290px;
+}
+
+.written-title {
+  margin-bottom: 40px;
+  font-family: 'righteous';
+  font-size: 45px;
+}
+
+.written-subtitle {
+  font-size: 17px;
+  font-family: 'sarala';
+  font-weight: 400;
+}
+
+.image-content {
+  width: 280px;
+  margin-top: 15px;
+  margin-right: 250px;
+}
+
+.btn {
+  margin-top: 35px;
+  padding: 10px 20px;
+  border-top: none;
+  border-left: none;
+  border-color: #1b3b37;
+  border-radius: 15px;
+  font-family: 'sarala';
+  font-weight: 400;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #1d353a;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+  margin-top: 36px;
+  margin-bottom: -1px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.second-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.second-title {
+  border-top: 1px solid #fff2e7;
+  padding-top: 55px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-family: 'righteous';
+  font-weight: 400;
+}
+
+.text-content {
+  font-size: 15px;
+  font-family: 'sarala';
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.baseboard {
+  padding: 15px;
+  border-top: 1px solid #fff2e7;
+}
+
+.baseboard-img {
+  width: 280px;
+  display: block;
+  margin: 0 auto;
+}
